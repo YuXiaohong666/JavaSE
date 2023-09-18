@@ -1,0 +1,2 @@
+声明颜色枚举类，7个常量对象：RED、ORANGE、YELLOW、GREEN、CYAN、BLUE、PURPLE
+在测试类中，使用枚举类 ，获取绿色对象，打印对象
