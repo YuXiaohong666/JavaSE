@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/_07_Exception/_07_Exception.iml" filepath="$PROJECT_DIR$/_07_Exception/_07_Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/_08_Thread/_08_Thread.iml" filepath="$PROJECT_DIR$/_08_Thread/_08_Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/_09_Api/_09_Api.iml" filepath="$PROJECT_DIR$/_09_Api/_09_Api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10_Collection/_10_Collection.iml" filepath="$PROJECT_DIR$/_10_Collection/_10_Collection.iml" />
     </modules>
   </component>
 </project>
