@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 /**
@@ -20,6 +21,24 @@ public class SetTest {
         set.add("bb");
         set.add("cc");
         set.add("dd");
+        set.add(new Person("小红", 23));
+
+        Iterator iterator = set.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+        System.out.println(set.contains(new Person("小红", 23)));
+    }
+
+    @Test
+    public void Test2() {
+        Set set = new LinkedHashSet();
+        set.add("aa");
+        set.add("bb");
+        set.add("cc");
+        set.add("dd");
+        set.add(new Person("小红", 23));
 
         Iterator iterator = set.iterator();
         while (iterator.hasNext()) {
