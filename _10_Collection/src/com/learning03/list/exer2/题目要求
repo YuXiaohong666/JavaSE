@@ -1,0 +1,4 @@
+定义方法public static int listTest(Collection list, String s)统计集合中指定元素出现的次数。
+
+1.创建集合，存放随机生成的30个字母。
+2.用listTest统计，a、b、c、x元素出现的次数。

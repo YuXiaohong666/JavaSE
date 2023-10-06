@@ -38,9 +38,14 @@ public class ListTest {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-        //使用iter快捷键可以快速创建foreach以对数组或集合进行迭代
+        // 使用iter快捷键可以快速创建foreach以对数组或集合进行迭代
         for (Object o : list) {
             System.out.println(o);
+        }
+
+        int[] arr = new int[]{1, 2, 3};
+        for (int i : arr) {
+            System.out.println(i);
         }
     }
 }
