@@ -2,7 +2,6 @@ package com.learning01.use;
 
 import org.junit.Test;
 
-import java.lang.invoke.DelegatingMethodHandle$Holder;
 import java.util.*;
 
 /**
@@ -57,6 +56,20 @@ public class CollectionMapTest {
         Map<String, Integer> map1 = new HashMap<>();
 
         map1.put("tom", 33);
+        map1.put("Jerry", 63);
+        map1.put("Rose", 52);
+//        Set<Map.Entry<String, Integer>> entries = map1.entrySet();
+//        Iterator<Map.Entry<String, Integer>> iterator = entries.iterator();
+
+        //jdk10的新特性
+        var entrySet = map1.entrySet();
+        var iterator = entrySet.iterator();
+        while (iterator.hasNext()) {
+            Map.Entry<String, Integer> next = iterator.next();
+            String key = next.getKey();
+            Integer value = next.getValue();
+            System.out.println(key + "--->" + value);
+        }
 
     }
 }
