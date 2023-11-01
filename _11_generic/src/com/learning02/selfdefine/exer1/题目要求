@@ -1,0 +1,15 @@
+定义一个泛型类DAO<T>，在其中定义一个Map成员变量，Map的键为String类型，值为T类型
+
+分别创建以下方法：
+public void save(String id, T entity)：保存T类型的对象到Map成员变量中。
+public T get(String id)：从map中获取id对象的对象。
+public void update(String id, T entity)：替换map中key为id的内容，改为entity对象。
+public List<T> list()：返回map中存放的所有T对象。
+public void delete(String id)：删除指定id对象。
+
+定义一个User类：
+该类包含：private成员变量(int类型) id，age；(String类型)name；
+
+定义一个测试类：
+创建DAO类对象，分别调用其save、get、update、list、delete方法来操作User对象。
+使用JUnit单元测试类进行测试。

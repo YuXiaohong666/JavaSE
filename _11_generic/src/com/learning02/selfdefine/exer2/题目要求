@@ -1,0 +1,3 @@
+编写一个泛型方法，实现任意引用类型数组指定位置元素互换
+
+public static <E> void method(E[] e, int a, int b){}
