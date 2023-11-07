@@ -24,5 +24,16 @@ public class GenericTest1 {
 
         // 只能写Object类型，不能写String类型，因为?是不确定类型，但肯定是Object类型，所以使用Object来接受
         Object o = list.get(0);
+
+        // 写入数据
+        // list.add("AA");  会报错
+        // 特例：
+        list.add(null);
+    }
+
+    // 测试，有限制条件的通配符的测试
+    @Test
+    public void test2() {
+
     }
 }
