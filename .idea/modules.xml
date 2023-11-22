@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/_11_generic/_11_generic.iml" filepath="$PROJECT_DIR$/_11_generic/_11_generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/_13_io/_13_io.iml" filepath="$PROJECT_DIR$/_13_io/_13_io.iml" />
       <module fileurl="file://$PROJECT_DIR$/_14_net/_14_net.iml" filepath="$PROJECT_DIR$/_14_net/_14_net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_15_reflection/_15_reflection.iml" filepath="$PROJECT_DIR$/_15_reflection/_15_reflection.iml" />
     </modules>
   </component>
 </project>
