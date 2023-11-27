@@ -13,7 +13,7 @@ public class Person {
     public Person() {
     }
 
-    public Person(String name, int age) {
+    private Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -36,6 +36,10 @@ public class Person {
 
     public void show() {
         System.out.println("展示");
+    }
+
+    private String showName(String name) {
+        return "我的名字是" + name;
     }
 
     @Override
